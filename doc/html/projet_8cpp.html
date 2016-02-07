@@ -1,0 +1,892 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.6"/>
+<title>Fifth: Référence du fichier projet.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Fifth
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.6 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Liste&#160;des&#160;fichiers</span></a></li>
+      <li><a href="globals.html"><span>Variables&#160;globale</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#define-members">Macros</a> &#124;
+<a href="#func-members">Fonctions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle">
+<div class="title">Référence du fichier projet.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Remplace un tube de colle par un sabre laser sur une prise de caméra.  
+<a href="#details">Plus de détails...</a></p>
+<div class="textblock"><code>#include &lt;stdio.h&gt;</code><br/>
+<code>#include &lt;stdlib.h&gt;</code><br/>
+<code>#include &lt;assert.h&gt;</code><br/>
+<code>#include &lt;time.h&gt;</code><br/>
+<code>#include &lt;string.h&gt;</code><br/>
+<code>#include &lt;iostream&gt;</code><br/>
+<code>#include &lt;opencv2/imgproc/imgproc.hpp&gt;</code><br/>
+<code>#include &lt;opencv2/core/core.hpp&gt;</code><br/>
+<code>#include &lt;opencv2/highgui/highgui.hpp&gt;</code><br/>
+<code>#include &lt;opencv2/objdetect/objdetect.hpp&gt;</code><br/>
+<code>#include &quot;<a class="el" href="glimage_8hpp_source.html">glimage/glimage.hpp</a>&quot;</code><br/>
+<code>#include &lt;GL/glut.h&gt;</code><br/>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a120fb070bddb21f0bd899f50252c4cb5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="projet_8cpp.html#a120fb070bddb21f0bd899f50252c4cb5">GL_GLEXT_PROTOTYPES</a></td></tr>
+<tr class="separator:a120fb070bddb21f0bd899f50252c4cb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1103fea1e1b3c41ca3322d5389f7162"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="projet_8cpp.html#ae1103fea1e1b3c41ca3322d5389f7162">INFO</a>&#160;&#160;&#160;if(0) printf</td></tr>
+<tr class="separator:ae1103fea1e1b3c41ca3322d5389f7162"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Fonctions</h2></td></tr>
+<tr class="memitem:a3281a6469f222669d124ebf5a693402e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="projet_8cpp.html#a3281a6469f222669d124ebf5a693402e">initGL</a> (void)</td></tr>
+<tr class="separator:a3281a6469f222669d124ebf5a693402e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5333e4c58d8a1b0c16364be92a71aa2a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="projet_8cpp.html#a5333e4c58d8a1b0c16364be92a71aa2a">reshape</a> (int, int)</td></tr>
+<tr class="separator:a5333e4c58d8a1b0c16364be92a71aa2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07eb07a7ce49da117f77a04add9baf60"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="projet_8cpp.html#a07eb07a7ce49da117f77a04add9baf60">drawBackground</a> (void)</td></tr>
+<tr class="separator:a07eb07a7ce49da117f77a04add9baf60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ea013001a5fb47853d0fab8f8de35cd"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="projet_8cpp.html#a4ea013001a5fb47853d0fab8f8de35cd">display</a> (void)</td></tr>
+<tr class="separator:a4ea013001a5fb47853d0fab8f8de35cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54dfd4354772c5f048afb99683ed70ae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="projet_8cpp.html#a54dfd4354772c5f048afb99683ed70ae">initCV</a> ()</td></tr>
+<tr class="separator:a54dfd4354772c5f048afb99683ed70ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74b898a59da74ab09b6cb3ca0358bf8e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="projet_8cpp.html#a74b898a59da74ab09b6cb3ca0358bf8e">initSwordPosition</a> (double x, double y, double z, double width, double height)</td></tr>
+<tr class="separator:a74b898a59da74ab09b6cb3ca0358bf8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd547c3799500fd50ffce91063b95abf"><td class="memItemLeft" align="right" valign="top">GLuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="projet_8cpp.html#afd547c3799500fd50ffce91063b95abf">matToTexture</a> (cv::Mat &amp;mat, GLenum minFilter, GLenum magFilter, GLenum wrapFilter)</td></tr>
+<tr class="separator:afd547c3799500fd50ffce91063b95abf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f41cb2afe7953746bc68ab534baf7bf"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="projet_8cpp.html#a6f41cb2afe7953746bc68ab534baf7bf">convertX</a> (double x, double width)</td></tr>
+<tr class="separator:a6f41cb2afe7953746bc68ab534baf7bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84797bcb1c4c1a21fb4fcd6276b6a7b1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="projet_8cpp.html#a84797bcb1c4c1a21fb4fcd6276b6a7b1">convertY</a> (double y, double height)</td></tr>
+<tr class="separator:a84797bcb1c4c1a21fb4fcd6276b6a7b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0de34bdb02b717e968167763550980a1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="projet_8cpp.html#a0de34bdb02b717e968167763550980a1">convertWidth</a> (double width)</td></tr>
+<tr class="separator:a0de34bdb02b717e968167763550980a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae12f6904e9de340a61b127f14ccf8d48"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="projet_8cpp.html#ae12f6904e9de340a61b127f14ccf8d48">convertHeight</a> (double height)</td></tr>
+<tr class="separator:ae12f6904e9de340a61b127f14ccf8d48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a971b32805f6084e5e6cd06ffac8e543b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="projet_8cpp.html#a971b32805f6084e5e6cd06ffac8e543b">detectColor</a> ()</td></tr>
+<tr class="separator:a971b32805f6084e5e6cd06ffac8e543b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a544af178277f7b4d50a47ef59dc9e473"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="projet_8cpp.html#a544af178277f7b4d50a47ef59dc9e473">drawHilt</a> ()</td></tr>
+<tr class="separator:a544af178277f7b4d50a47ef59dc9e473"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee8c1c0fff409def3e4fdece1824f66c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="projet_8cpp.html#aee8c1c0fff409def3e4fdece1824f66c">drawBlade</a> ()</td></tr>
+<tr class="separator:aee8c1c0fff409def3e4fdece1824f66c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac597a245efcbf41aaa4d28a21e55e292"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="projet_8cpp.html#ac597a245efcbf41aaa4d28a21e55e292">drawCam</a> ()</td></tr>
+<tr class="separator:ac597a245efcbf41aaa4d28a21e55e292"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e1b432212cd9a0c664404fe342f0eb9"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="projet_8cpp.html#a0e1b432212cd9a0c664404fe342f0eb9">keyboard</a> (unsigned char key, int x, int y)</td></tr>
+<tr class="separator:a0e1b432212cd9a0c664404fe342f0eb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c04138a5bfe5d72780bb7e82a18e627"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="projet_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a> (int argc, char **argv)</td></tr>
+<tr class="separator:a3c04138a5bfe5d72780bb7e82a18e627"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a153c3c10a7fc862f4ad49ec907f735ed"><td class="memItemLeft" align="right" valign="top">static GLuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="projet_8cpp.html#a153c3c10a7fc862f4ad49ec907f735ed">camText</a> =0</td></tr>
+<tr class="separator:a153c3c10a7fc862f4ad49ec907f735ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad907dc77d7d86f6f3dc00ea816b197df"><td class="memItemLeft" align="right" valign="top">static GLuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="projet_8cpp.html#ad907dc77d7d86f6f3dc00ea816b197df">hiltText</a> = 0</td></tr>
+<tr class="separator:ad907dc77d7d86f6f3dc00ea816b197df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d8cee887484228d3fc5397635ee0237"><td class="memItemLeft" align="right" valign="top">static GLuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="projet_8cpp.html#a0d8cee887484228d3fc5397635ee0237">bladeText</a> = 0</td></tr>
+<tr class="separator:a0d8cee887484228d3fc5397635ee0237"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4554d65d8a6693eb0770e1fe19265c5"><td class="memItemLeft" align="right" valign="top">VideoCapture *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="projet_8cpp.html#ad4554d65d8a6693eb0770e1fe19265c5">capture</a></td></tr>
+<tr class="separator:ad4554d65d8a6693eb0770e1fe19265c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5e1c65dead826b108b03f34181e4593"><td class="memItemLeft" align="right" valign="top">Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="projet_8cpp.html#ae5e1c65dead826b108b03f34181e4593">imgOriginal</a></td></tr>
+<tr class="separator:ae5e1c65dead826b108b03f34181e4593"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a535da9599ff31b45a3fc7d91ad2b8c8c"><td class="memItemLeft" align="right" valign="top">GLfloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="projet_8cpp.html#a535da9599ff31b45a3fc7d91ad2b8c8c">camVBO</a> []</td></tr>
+<tr class="separator:a535da9599ff31b45a3fc7d91ad2b8c8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44740968dcb932b3829357461b3ed93e"><td class="memItemLeft" align="right" valign="top">GLfloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="projet_8cpp.html#a44740968dcb932b3829357461b3ed93e">hiltVBO</a> [20]</td></tr>
+<tr class="separator:a44740968dcb932b3829357461b3ed93e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6373f42415799ec70527d2be15a018e6"><td class="memItemLeft" align="right" valign="top">GLfloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="projet_8cpp.html#a6373f42415799ec70527d2be15a018e6">bladeVBO</a> [32]</td></tr>
+<tr class="separator:a6373f42415799ec70527d2be15a018e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
+<div class="textblock"><p>Remplace un tube de colle par un sabre laser sur une prise de caméra. </p>
+<dl class="section author"><dt>Auteur</dt><dd>Lecocq Guillaume </dd></dl>
+</div><h2 class="groupheader">Documentation des macros</h2>
+<a class="anchor" id="a120fb070bddb21f0bd899f50252c4cb5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define GL_GLEXT_PROTOTYPES</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae1103fea1e1b3c41ca3322d5389f7162"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define INFO&#160;&#160;&#160;if(0) printf</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Référencé par <a class="el" href="projet_8cpp.html#a6f41cb2afe7953746bc68ab534baf7bf">convertX()</a>, <a class="el" href="projet_8cpp.html#a84797bcb1c4c1a21fb4fcd6276b6a7b1">convertY()</a>, <a class="el" href="projet_8cpp.html#a971b32805f6084e5e6cd06ffac8e543b">detectColor()</a>, <a class="el" href="projet_8cpp.html#a74b898a59da74ab09b6cb3ca0358bf8e">initSwordPosition()</a>, et <a class="el" href="projet_8cpp.html#afd547c3799500fd50ffce91063b95abf">matToTexture()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des fonctions</h2>
+<a class="anchor" id="ae12f6904e9de340a61b127f14ccf8d48"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double convertHeight </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>height</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>convertit la hauteur de l'espace OpenCV vers l'espace OpengGL </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">height</td><td>hauteur à convertir </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>hauteur convertie </dd></dl>
+
+<p>Références <a class="el" href="projet_8cpp.html#ae5e1c65dead826b108b03f34181e4593">imgOriginal</a>.</p>
+
+<p>Référencé par <a class="el" href="projet_8cpp.html#a971b32805f6084e5e6cd06ffac8e543b">detectColor()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0de34bdb02b717e968167763550980a1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double convertWidth </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>width</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>convertit la largeur de l'espace OpenCV vers l'espace OpengGL </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">width</td><td>largeur à convertir </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>largeur convertie </dd></dl>
+
+<p>Références <a class="el" href="projet_8cpp.html#ae5e1c65dead826b108b03f34181e4593">imgOriginal</a>.</p>
+
+<p>Référencé par <a class="el" href="projet_8cpp.html#a971b32805f6084e5e6cd06ffac8e543b">detectColor()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6f41cb2afe7953746bc68ab534baf7bf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double convertX </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>width</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>convertit la coordonnée X de l'espace OpenCV vers l'espace OpengGL </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>coordonnée à convertir </td></tr>
+    <tr><td class="paramname">width</td><td>largeur du rectangle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>coordonnée convertie </dd></dl>
+
+<p>Références <a class="el" href="projet_8cpp.html#ae5e1c65dead826b108b03f34181e4593">imgOriginal</a>, et <a class="el" href="projet_8cpp.html#ae1103fea1e1b3c41ca3322d5389f7162">INFO</a>.</p>
+
+<p>Référencé par <a class="el" href="projet_8cpp.html#a971b32805f6084e5e6cd06ffac8e543b">detectColor()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a84797bcb1c4c1a21fb4fcd6276b6a7b1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double convertY </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>height</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>convertit la coordonnée Y de l'espace OpenCV vers l'espace OpengGL </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">y</td><td>coordonnée à convertir </td></tr>
+    <tr><td class="paramname">height</td><td>hauteur du rectangle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>coordonnée convertie </dd></dl>
+
+<p>Références <a class="el" href="projet_8cpp.html#ae5e1c65dead826b108b03f34181e4593">imgOriginal</a>, et <a class="el" href="projet_8cpp.html#ae1103fea1e1b3c41ca3322d5389f7162">INFO</a>.</p>
+
+<p>Référencé par <a class="el" href="projet_8cpp.html#a971b32805f6084e5e6cd06ffac8e543b">detectColor()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a971b32805f6084e5e6cd06ffac8e543b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void detectColor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>détecte la couleur jaune sur les images de la caméra (l'objet le plus gros est retourné sous la forme d'un rectangle (x,y,w,h)) </p>
+<p>Detect edges using Threshold</p>
+<p>Find contours </p>
+
+<p>Références <a class="el" href="projet_8cpp.html#ad4554d65d8a6693eb0770e1fe19265c5">capture</a>, <a class="el" href="projet_8cpp.html#ae12f6904e9de340a61b127f14ccf8d48">convertHeight()</a>, <a class="el" href="projet_8cpp.html#a0de34bdb02b717e968167763550980a1">convertWidth()</a>, <a class="el" href="projet_8cpp.html#a6f41cb2afe7953746bc68ab534baf7bf">convertX()</a>, <a class="el" href="projet_8cpp.html#a84797bcb1c4c1a21fb4fcd6276b6a7b1">convertY()</a>, <a class="el" href="projet_8cpp.html#ae5e1c65dead826b108b03f34181e4593">imgOriginal</a>, <a class="el" href="projet_8cpp.html#ae1103fea1e1b3c41ca3322d5389f7162">INFO</a>, et <a class="el" href="projet_8cpp.html#a74b898a59da74ab09b6cb3ca0358bf8e">initSwordPosition()</a>.</p>
+
+<p>Référencé par <a class="el" href="projet_8cpp.html#ac597a245efcbf41aaa4d28a21e55e292">drawCam()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4ea013001a5fb47853d0fab8f8de35cd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void display </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>dessine l'univers OpenGL </p>
+
+<p>Références <a class="el" href="projet_8cpp.html#aee8c1c0fff409def3e4fdece1824f66c">drawBlade()</a>, <a class="el" href="projet_8cpp.html#ac597a245efcbf41aaa4d28a21e55e292">drawCam()</a>, et <a class="el" href="projet_8cpp.html#a544af178277f7b4d50a47ef59dc9e473">drawHilt()</a>.</p>
+
+<p>Référencé par <a class="el" href="projet_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a07eb07a7ce49da117f77a04add9baf60"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void drawBackground </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aee8c1c0fff409def3e4fdece1824f66c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void drawBlade </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>dessine la lame du sabre laser sur un cube texturé </p>
+
+<p>Références <a class="el" href="projet_8cpp.html#a0d8cee887484228d3fc5397635ee0237">bladeText</a>, et <a class="el" href="projet_8cpp.html#a6373f42415799ec70527d2be15a018e6">bladeVBO</a>.</p>
+
+<p>Référencé par <a class="el" href="projet_8cpp.html#a4ea013001a5fb47853d0fab8f8de35cd">display()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac597a245efcbf41aaa4d28a21e55e292"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void drawCam </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>dessine la capture de la caméra sur un cube texturé </p>
+
+<p>Références <a class="el" href="projet_8cpp.html#a153c3c10a7fc862f4ad49ec907f735ed">camText</a>, <a class="el" href="projet_8cpp.html#a535da9599ff31b45a3fc7d91ad2b8c8c">camVBO</a>, <a class="el" href="projet_8cpp.html#a971b32805f6084e5e6cd06ffac8e543b">detectColor()</a>, <a class="el" href="projet_8cpp.html#ae5e1c65dead826b108b03f34181e4593">imgOriginal</a>, et <a class="el" href="projet_8cpp.html#afd547c3799500fd50ffce91063b95abf">matToTexture()</a>.</p>
+
+<p>Référencé par <a class="el" href="projet_8cpp.html#a4ea013001a5fb47853d0fab8f8de35cd">display()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a544af178277f7b4d50a47ef59dc9e473"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void drawHilt </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>dessine le manche du sabre laser sur un cube texturé </p>
+
+<p>Références <a class="el" href="projet_8cpp.html#ad907dc77d7d86f6f3dc00ea816b197df">hiltText</a>, et <a class="el" href="projet_8cpp.html#a44740968dcb932b3829357461b3ed93e">hiltVBO</a>.</p>
+
+<p>Référencé par <a class="el" href="projet_8cpp.html#a4ea013001a5fb47853d0fab8f8de35cd">display()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a54dfd4354772c5f048afb99683ed70ae"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void initCV </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>initialise les paramètres relatifs à OpenCV </p>
+
+<p>Références <a class="el" href="projet_8cpp.html#ad4554d65d8a6693eb0770e1fe19265c5">capture</a>.</p>
+
+<p>Référencé par <a class="el" href="projet_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3281a6469f222669d124ebf5a693402e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void initGL </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>initialise tous les paramètres relatifs à OpenGL </p>
+
+<p>Références <a class="el" href="projet_8cpp.html#a0d8cee887484228d3fc5397635ee0237">bladeText</a>, <a class="el" href="glimage_8cpp.html#a908ea3d6eb8be5314a10a22c56a1ac53">glimageLoadAndBind()</a>, et <a class="el" href="projet_8cpp.html#ad907dc77d7d86f6f3dc00ea816b197df">hiltText</a>.</p>
+
+<p>Référencé par <a class="el" href="projet_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a74b898a59da74ab09b6cb3ca0358bf8e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void initSwordPosition </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>z</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>height</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>initialise les positions de l'épée dans l'espace à l'endroit où l'on détecte le tube de colle </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>coordonnées en x </td></tr>
+    <tr><td class="paramname">y</td><td>coordonnées en y </td></tr>
+    <tr><td class="paramname">z</td><td>coordonnées en z </td></tr>
+    <tr><td class="paramname">width</td><td>largeur </td></tr>
+    <tr><td class="paramname">height</td><td>hauteur </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Références <a class="el" href="projet_8cpp.html#a6373f42415799ec70527d2be15a018e6">bladeVBO</a>, <a class="el" href="projet_8cpp.html#a44740968dcb932b3829357461b3ed93e">hiltVBO</a>, et <a class="el" href="projet_8cpp.html#ae1103fea1e1b3c41ca3322d5389f7162">INFO</a>.</p>
+
+<p>Référencé par <a class="el" href="projet_8cpp.html#a971b32805f6084e5e6cd06ffac8e543b">detectColor()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0e1b432212cd9a0c664404fe342f0eb9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void keyboard </td>
+          <td>(</td>
+          <td class="paramtype">unsigned char&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p><br/>
+ gère les entreés claviers </p>
+
+<p>Référencé par <a class="el" href="projet_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3c04138a5bfe5d72780bb7e82a18e627"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int main </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>argc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char **&#160;</td>
+          <td class="paramname"><em>argv</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Références <a class="el" href="projet_8cpp.html#a4ea013001a5fb47853d0fab8f8de35cd">display()</a>, <a class="el" href="projet_8cpp.html#a54dfd4354772c5f048afb99683ed70ae">initCV()</a>, <a class="el" href="projet_8cpp.html#a3281a6469f222669d124ebf5a693402e">initGL()</a>, <a class="el" href="projet_8cpp.html#a0e1b432212cd9a0c664404fe342f0eb9">keyboard()</a>, et <a class="el" href="projet_8cpp.html#a5333e4c58d8a1b0c16364be92a71aa2a">reshape()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afd547c3799500fd50ffce91063b95abf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLuint matToTexture </td>
+          <td>(</td>
+          <td class="paramtype">cv::Mat &amp;&#160;</td>
+          <td class="paramname"><em>mat</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLenum&#160;</td>
+          <td class="paramname"><em>minFilter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLenum&#160;</td>
+          <td class="paramname"><em>magFilter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLenum&#160;</td>
+          <td class="paramname"><em>wrapFilter</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>transforme une matrice (ici l'image de la caméra) en une texture 2D </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mat</td><td>adresse de la matrice </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>ID de la texture 2D de la matrice </dd></dl>
+
+<p>Références <a class="el" href="projet_8cpp.html#ae1103fea1e1b3c41ca3322d5389f7162">INFO</a>.</p>
+
+<p>Référencé par <a class="el" href="projet_8cpp.html#ac597a245efcbf41aaa4d28a21e55e292">drawCam()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5333e4c58d8a1b0c16364be92a71aa2a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void reshape </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>height</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>redimensionne la fenêtre </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">width</td><td>largeur de la fenêtre </td></tr>
+    <tr><td class="paramname">height</td><td>hauteur de la fenêtre </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Référencé par <a class="el" href="projet_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des variables</h2>
+<a class="anchor" id="a0d8cee887484228d3fc5397635ee0237"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLuint bladeText = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>identifiant de la texture de la lame du sabre laser </p>
+
+<p>Référencé par <a class="el" href="projet_8cpp.html#aee8c1c0fff409def3e4fdece1824f66c">drawBlade()</a>, et <a class="el" href="projet_8cpp.html#a3281a6469f222669d124ebf5a693402e">initGL()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6373f42415799ec70527d2be15a018e6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLfloat bladeVBO[32]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Coordonnées (dans l'espace et de texture) du cube où la lame sera texturée </p>
+
+<p>Référencé par <a class="el" href="projet_8cpp.html#aee8c1c0fff409def3e4fdece1824f66c">drawBlade()</a>, et <a class="el" href="projet_8cpp.html#a74b898a59da74ab09b6cb3ca0358bf8e">initSwordPosition()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a153c3c10a7fc862f4ad49ec907f735ed"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLuint camText =0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>identifiant de la texture de la caméra </p>
+
+<p>Référencé par <a class="el" href="projet_8cpp.html#ac597a245efcbf41aaa4d28a21e55e292">drawCam()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a535da9599ff31b45a3fc7d91ad2b8c8c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLfloat camVBO[]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Valeur initiale :</b><div class="fragment"><div class="line">= {</div>
+<div class="line">        -1.f, -1.f, 0.f,</div>
+<div class="line">        1.0f, 1.0f,</div>
+<div class="line">        1.f, -1.f, 0.f,</div>
+<div class="line">        0.0f, 1.0f,</div>
+<div class="line">        1.f,  1.f, 0.f,</div>
+<div class="line">        0.0f, 0.0f,</div>
+<div class="line">        -1.f,  1.f, 0.f,</div>
+<div class="line">        1.0f, 0.0f</div>
+<div class="line">}</div>
+</div><!-- fragment --><p>Coordonnées (dans l'espace et de texture) du cube où la caméra sera texturée </p>
+
+<p>Référencé par <a class="el" href="projet_8cpp.html#ac597a245efcbf41aaa4d28a21e55e292">drawCam()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad4554d65d8a6693eb0770e1fe19265c5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">VideoCapture* capture</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Capture de la caméra </p>
+
+<p>Référencé par <a class="el" href="projet_8cpp.html#a971b32805f6084e5e6cd06ffac8e543b">detectColor()</a>, et <a class="el" href="projet_8cpp.html#a54dfd4354772c5f048afb99683ed70ae">initCV()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad907dc77d7d86f6f3dc00ea816b197df"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLuint hiltText = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>identifiant de la texture du manche du sabre laser </p>
+
+<p>Référencé par <a class="el" href="projet_8cpp.html#a544af178277f7b4d50a47ef59dc9e473">drawHilt()</a>, et <a class="el" href="projet_8cpp.html#a3281a6469f222669d124ebf5a693402e">initGL()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a44740968dcb932b3829357461b3ed93e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLfloat hiltVBO[20]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Coordonnées (dans l'espace et de texture) du cube où le manche sera texturé </p>
+
+<p>Référencé par <a class="el" href="projet_8cpp.html#a544af178277f7b4d50a47ef59dc9e473">drawHilt()</a>, et <a class="el" href="projet_8cpp.html#a74b898a59da74ab09b6cb3ca0358bf8e">initSwordPosition()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae5e1c65dead826b108b03f34181e4593"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Mat imgOriginal</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Matrice qui contiendra l'image original de la caméra </p>
+
+<p>Référencé par <a class="el" href="projet_8cpp.html#ae12f6904e9de340a61b127f14ccf8d48">convertHeight()</a>, <a class="el" href="projet_8cpp.html#a0de34bdb02b717e968167763550980a1">convertWidth()</a>, <a class="el" href="projet_8cpp.html#a6f41cb2afe7953746bc68ab534baf7bf">convertX()</a>, <a class="el" href="projet_8cpp.html#a84797bcb1c4c1a21fb4fcd6276b6a7b1">convertY()</a>, <a class="el" href="projet_8cpp.html#a971b32805f6084e5e6cd06ffac8e543b">detectColor()</a>, et <a class="el" href="projet_8cpp.html#ac597a245efcbf41aaa4d28a21e55e292">drawCam()</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré le Dimanche 13 Décembre 2015 20:54:33 pour Fifth par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.6
+</small></address>
+</body>
+</html>
